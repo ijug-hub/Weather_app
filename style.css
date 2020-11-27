@@ -1,0 +1,122 @@
+*{margin: 0; padding: 0; font-family: 'Raleway', sans-serif;}
+
+body,html {
+    height: 100%;
+    background-image:url('planina.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    
+  }
+.banner{
+    height: 100 vh;
+    width: 100%;
+}
+
+.banner .navbar{
+    margin-top: 2%;
+}
+.banner .navbar-brand{
+    color:#fff;
+    font-size:1.8em ;
+    margin-left: 10%;
+}
+.banner .navbar-brand a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.banner .nav{
+    margin-right: 10%;
+}
+
+.banner .nav ul li{
+    font-size: 1.2em;
+}
+.banner .nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    margin-left: 2px;
+}
+.banner .nav-item a:hover{
+    color:#fff;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+    
+}
+.banner .info h1{
+    font-size: 2.5 em;
+    color: #fff;
+    letter-spacing:2px ;
+}
+.banner .info p{
+    font-size: 2 em;
+    letter-spacing:2px ;
+    color: rgb(44, 44, 44);
+}
+.banner .info a{
+    margin-left: 50%;
+    transform:translateX(-50%);
+    color: #fff;
+}
+
+.banner .info .btn{
+    border: 1px solid;
+}
+.banner .info a:hover{
+    color: black;
+    background: white;
+    border:none;
+}
+
+
+/* explore.html*/
+.app-wrap{
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 px 0px 10px 0px #fff;
+    margin-top: 8%;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+.app-wrap .form-inline{
+    margin-left: 5%;
+}
+.app-wrap .form-inline .btn{
+    color:#fff;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.app-wrap .form-inline a:hover{
+    background-color:rgb(96,38,59);
+    color: #fff;
+    margin-left: 5%;
+}
+.city{
+    font-size: 20px;
+}
+.date{
+    font-size: 15px;
+}
+.current .temp{
+    font-size: 4em;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgb(187, 77, 117);
+}
+.current .weather{
+    font-size: 2em;
+}
+.current .hi-low{
+    font-size: 15px;
+}
+.current .far{
+    font-size: 2em;
+    margin-top: 10px;
+}
